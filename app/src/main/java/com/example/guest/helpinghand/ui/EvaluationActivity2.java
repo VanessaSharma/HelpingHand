@@ -24,16 +24,16 @@ public class EvaluationActivity2 extends AppCompatActivity {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId){
                 if (checkedId == R.id.radio1) {
-                    setContentView(R.layout.activity_final_2);
+                    setContentView(R.layout.activity_evaluation_3);
                 }
                 else if (checkedId == R.id.radio2){
-                    setContentView(R.layout.activity_final_2);
+                    setContentView(R.layout.activity_evaluation_3);
                 }
                 else if (checkedId == R.id.radio3) {
-                    setContentView(R.layout.activity_final_1);
+                    setContentView(R.layout.activity_evaluation_3);
                 }
                 else{
-                    setContentView(R.layout.activity_final_2);
+                    setContentView(R.layout.activity_evaluation_3);
                 }
             }
         });

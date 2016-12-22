@@ -6,7 +6,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Are you currently experiencing any pain?"
+        android:text="Not being able to stop or control worrying?"
         android:textSize="20sp"
         android:id="@+id/textView4"
         android:layout_alignParentTop="true"
@@ -21,19 +21,19 @@
         android:layout_above="@+id/button2"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:id="@+id/radioGroup">
+        android:id="@+id/radioGroup2">
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rather not aswer."
+            android:text="Not at all"
             android:id="@+id/radio1"
             android:layout_gravity="center_horizontal"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="No"
+            android:text="Several days"
             android:id="@+id/radio2"
             android:layout_alignTop="@+id/radioGroup"
             android:layout_centerHorizontal="true"
@@ -42,14 +42,14 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Yes"
+            android:text="More than half the days"
             android:id="@+id/radio3"
             android:layout_gravity="center_horizontal"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Some pain"
+            android:text="Nearly ever day"
             android:id="@+id/radio4"
             android:layout_gravity="center_horizontal"/>
     </RadioGroup>
