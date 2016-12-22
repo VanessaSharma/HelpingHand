@@ -1,4 +1,4 @@
-package com.example.guest.helpinghand;
+package com.example.guest.helpinghand.ui;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -8,7 +8,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity  {
+import com.example.guest.helpinghand.R;
+
+public class StartActivity extends AppCompatActivity  {
     Button btn;
 
     @Override
@@ -22,7 +24,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(MainActivity.this, EvaluationActivity.class);
+                Intent intent = new Intent(StartActivity.this, EvaluationActivity.class);
                 startActivity(intent);
             }
         });
@@ -46,4 +48,4 @@ public class MainActivity extends AppCompatActivity  {
 //            return true;
 //        }
 //        return super.onOptionsItemSelected(item);
-    }
+}

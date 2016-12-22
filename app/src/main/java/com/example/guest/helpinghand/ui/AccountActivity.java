@@ -1,4 +1,4 @@
-package com.example.guest.helpinghand;
+package com.example.guest.helpinghand.ui;
 
 
 
@@ -14,6 +14,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.guest.helpinghand.ui.LogInActivity;
 import com.example.guest.helpinghand.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;

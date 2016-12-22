@@ -1,9 +1,11 @@
-package com.example.guest.helpinghand;
+package com.example.guest.helpinghand.ui;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 import android.widget.RadioGroup;
+
+import com.example.guest.helpinghand.R;
 
 public class EvaluationActivity extends AppCompatActivity {
     private RadioGroup radioGroup;

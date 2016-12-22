@@ -1,4 +1,4 @@
-package com.example.guest.helpinghand;
+package com.example.guest.helpinghand.ui;
 
 
 import android.app.ProgressDialog;

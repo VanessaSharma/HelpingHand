@@ -1,31 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context="com.example.guest.helpinghand.ui.MainActivity"
+    android:background="#000000">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:src="@drawable/image"
+        android:scaleType="centerCrop"/>
+
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/imageViewBottom"-->
+        <!--android:src="@drawable/mainpageb"-->
+        <!--android:scaleType="fitEnd"-->
+        <!--android:contentDescription="" />-->
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Hi!Let's see what I can do for you today."
-        android:textColor="#0000ff"
-        android:textSize="30sp"
-        android:id="@+id/textView2"
+        android:text="Helping Hand"
+        android:textSize="45sp"
+        android:id="@+id/helpingHandTextView"
+        android:textColor="#FFFFFF"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="160dp"/>
+        android:layout_marginTop="44dp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:id="@+id/signInButton"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/helpingHandTextView"
+        android:layout_alignStart="@+id/helpingHandTextView"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Start Evaluation "
-        android:textColor="#ffffff"
-        android:background="#0000ff"
-        android:textSize="25dp"
-        android:id="@+id/button"
-        android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"/>
+        android:text="Sign Up"
+        android:id="@+id/signUpButton"
+        android:layout_alignTop="@+id/signInButton"
+        android:layout_alignRight="@+id/helpingHandTextView"
+        android:layout_alignEnd="@+id/helpingHandTextView" />
 
-</RelativeLayout>  
+
+
+
+</RelativeLayout>
